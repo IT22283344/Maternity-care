@@ -12,7 +12,7 @@ const Onboarding2 = ({ navigation }) => {
 
         <Text style={styles.featureText}>• Log daily symptoms and moods.</Text>
         <Text style={styles.featureText}>• Receive personalized advice for each trimester.</Text>
-        {/*<Text style={styles.featureText}>• Follow guided exercise routines.</Text>*/}
+        <Text style={styles.featureText}>• Follow guided exercise routines.</Text>*
 
         <TouchableOpacity onPress={() => navigation.navigate('LoginScreen')} style={styles.button}>
           <Text style={styles.buttonText}>Get Started</Text>
